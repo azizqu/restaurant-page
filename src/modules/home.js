@@ -23,7 +23,8 @@ function createAbout() {
     ptext.className = 'about-content';
     ptext.textContent =
         'Founded in 1999, Blues Pizza strives to make the best pizza in the GTA! ' +
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus est ipsa velit?'
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus est ipsa velit?'+
+        'Come Visit Today! '
 
     section.appendChild(heading);
     section.appendChild(ptext);

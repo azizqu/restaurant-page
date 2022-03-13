@@ -91,6 +91,9 @@ section p{
     text-align: center;
 }
 
+.price{
+    color: #cc0101;
+}
 
 
 .item img {
@@ -149,26 +152,65 @@ section p{
     padding: 1em;
 }
 
-/*@media screen and (min-width: 40em){*/
+@media screen and (min-width: 40em){
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    .header-home {
+        height: 75px;
+        position: relative;
+        width: 550px;
+        left: 11em;
+        display: flex;
+        justify-content: center;
 
 
-/*    .navContainer{*/
-/*        display: flex;*/
-/*        justify-content: center;*/
-/*    }*/
+    }
 
-/*    .home-page h1{*/
-/*        max-width: fit-content;*/
-/*        margin: auto;*/
-/*        padding: 0.5em;*/
-/*        position: relative;*/
-/*        top: 1em;*/
+    section.about{
+        width: 550px;
+        margin: auto;
+        top: 0;
 
-/*    }*/
-/*  section.about{*/
-/*      max-width: 600px;*/
+    }
 
-/*  }*/
-/*}*/
+    section.hours{
+        width: 550px;
+        margin: auto;
+    }
+
+    .contact-container{
+        display: inline-block;
+        left: 27em;
+        top: 10em;
+        position: fixed;
+    }
+
+    .item .name, .item .price{
+        text-wrap: normal;
+    }
+
+    h2.name{
+        width: 600px;
+    }
+    h3.price{
+       width: 200px;
+    }
+
+    div.item{
+        width: auto;
+    }
+
+
+
+
+
+
+
+
+
+}
 
 
